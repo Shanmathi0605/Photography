@@ -26,7 +26,7 @@ export function FeaturedWork() {
             <span className="text-luxury-gold tracking-[0.2em] uppercase text-xs">Curated Selection</span>
             <div className="w-12 h-[1px] bg-luxury-gold" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-playfair mb-6">Featured Masterpieces</h2>
+          <h2 className="text-4xl md:text-5xl font-cormorant mb-6">Featured Masterpieces</h2>
         </motion.div>
       </div>
 

@@ -5,10 +5,10 @@ import clsx from 'clsx'
 
 const navLinks = [
   { name: 'Home', href: '#home' },
-  { name: 'About', href: '#about' },
-  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Studio', href: '#studio' },
   { name: 'Services', href: '#services' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Portfolio', href: '#portfolio' },
+  { name: 'Packages', href: '#packages' },
 ]
 
 export function Navbar() {
@@ -39,7 +39,7 @@ export function Navbar() {
              
         <div className="container mx-auto px-6 md:px-12 relative z-10 flex items-center justify-between">
           {/* Logo */}
-          <a href="#home" className="text-2xl font-playfair font-semibold tracking-wider text-white">
+          <a href="#home" className="text-2xl font-cormorant font-semibold tracking-wider text-white">
             LUMINA<span className="text-luxury-gold">.</span>
           </a>
 
@@ -95,7 +95,7 @@ export function Navbar() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   <motion.span
-                    className="text-2xl font-playfair text-white hover:text-luxury-gold transition-colors inline-block"
+                    className="text-2xl font-cormorant text-white hover:text-luxury-gold transition-colors inline-block"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}

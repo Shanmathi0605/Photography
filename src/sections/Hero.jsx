@@ -10,27 +10,27 @@ const contentBlocks = [
     id: 1,
     startFrame: 0,
     endFrame: 70,
-    title: "Precision Engineering",
+    title: "Mastering Light",
     subtitle: "The Foundation",
-    description: "Crafted with aerospace-grade materials for ultimate durability and lightweight performance in any environment.",
+    description: "A premium 2,500 sq ft physical studio equipped with industry-leading lighting rigs for total creative control.",
     position: "left"
   },
   {
     id: 2,
     startFrame: 80,
     endFrame: 150,
-    title: "Flawless Optics",
+    title: "The Perfect Frame",
     subtitle: "The Vision",
-    description: "Capture the world in unprecedented detail with our newly designed multi-element glass lens system.",
+    description: "Meticulous art direction combined with cutting-edge cinematography to craft images that command attention.",
     position: "right"
   },
   {
     id: 3,
     startFrame: 160,
     endFrame: 239,
-    title: "Ready to Shoot",
+    title: "Your Story Elevated",
     subtitle: "The Masterpiece",
-    description: "A perfect symphony of mechanics and electronics, assembled to capture your timeless moments.",
+    description: "Where raw emotion meets high-end editorial production. Welcome to Lumina Studio.",
     position: "center"
   }
 ]
@@ -320,7 +320,7 @@ export function Hero() {
                 <span className="text-xs tracking-widest uppercase text-white/80">{block.subtitle}</span>
               </div>
               
-              <h2 className="text-5xl md:text-7xl font-playfair leading-[1.1] text-white mb-6 drop-shadow-lg">
+              <h2 className="text-5xl md:text-7xl font-cormorant leading-[1.1] text-white mb-6 drop-shadow-lg">
                 {block.title.split(' ').map((word, i) => (
                   <span key={i} className={i % 2 !== 0 ? "text-luxury-gold italic" : ""}>
                     {word}{" "}
@@ -328,7 +328,7 @@ export function Hero() {
                 ))}
               </h2>
               
-              <p className="text-white/80 text-lg md:text-xl font-poppins font-light drop-shadow-md">
+              <p className="text-white/80 text-lg md:text-xl font-montserrat font-light drop-shadow-md">
                 {block.description}
               </p>
             </div>

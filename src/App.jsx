@@ -5,14 +5,12 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import { CustomCursor } from './components/layout/CustomCursor'
 import { Navbar } from './components/layout/Navbar'
 import { Hero } from './sections/Hero'
+import { Portfolio } from './sections/Portfolio'
 import { About } from './sections/About'
 import { Services } from './sections/Services'
-import { Portfolio } from './sections/Portfolio'
 import { Testimonials } from './sections/Testimonials'
 import { Booking } from './sections/Booking'
 import { Footer } from './components/layout/Footer'
-import { Philosophy } from './sections/Philosophy'
-import { FeaturedWork } from './sections/FeaturedWork'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -46,16 +44,14 @@ function App() {
   }, [])
 
   return (
-    <div className="relative min-h-screen bg-deep-black selection:bg-luxury-gold selection:text-deep-black">
+    <div className="relative min-h-screen bg-[#070707] selection:bg-[#B39359] selection:text-[#070707] text-white">
       <CustomCursor />
       <Navbar />
       <main>
         <Hero />
+        <Portfolio />
         <About />
         <Services />
-        <Portfolio />
-        <Philosophy />
-        <FeaturedWork />
         <Testimonials />
         <Booking />
       </main>

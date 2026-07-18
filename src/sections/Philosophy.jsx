@@ -21,7 +21,7 @@ export function Philosophy() {
               <span className="text-luxury-gold tracking-[0.2em] uppercase text-xs">Our Philosophy</span>
             </div>
             
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-playfair mb-8 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-cormorant mb-8 leading-tight">
               We Don't Just Take Photos. <br />
               <span className="italic text-luxury-gold">We Freeze Time.</span>
             </h2>

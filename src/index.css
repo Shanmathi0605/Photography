@@ -3,11 +3,11 @@
 
 @layer base {
   body {
-    @apply bg-deep-black text-white font-poppins;
+    @apply bg-deep-black text-white font-montserrat;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair font-normal;
+    @apply font-cormorant font-normal;
   }
 }
 

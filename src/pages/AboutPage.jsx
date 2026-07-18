@@ -36,10 +36,10 @@ export function AboutPage() {
             <span className="text-luxury-gold tracking-[0.2em] uppercase text-xs">Who We Are</span>
             <div className="w-12 h-[1px] bg-luxury-gold" />
           </div>
-          <h1 className="text-5xl md:text-7xl font-playfair mb-8">
+          <h1 className="text-5xl md:text-7xl font-cormorant mb-8">
             Behind the <span className="italic text-luxury-gold">Lens</span>
           </h1>
-          <p className="max-w-2xl mx-auto text-white/60 text-lg font-poppins font-light leading-relaxed">
+          <p className="max-w-2xl mx-auto text-white/60 text-lg font-montserrat font-light leading-relaxed">
             Lumina Studio was founded in 2018 with a singular vision: to treat every subject like a masterpiece. 
             We are a collective of artists, technologists, and storytellers dedicated to preserving your most precious moments in timeless elegance.
           </p>
@@ -67,7 +67,7 @@ export function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-3xl md:text-4xl font-playfair mb-6">Our Sanctuary of Light</h2>
+            <h2 className="text-3xl md:text-4xl font-cormorant mb-6">Our Sanctuary of Light</h2>
             <p className="text-white/60 font-light leading-relaxed mb-6">
               Located in the heart of the creative district, our 3,000 sq ft studio is designed to be a blank canvas for imagination. 
               Equipped with state-of-the-art Profoto lighting and an array of custom backdrops, we control every photon to craft your perfect image.
@@ -82,7 +82,7 @@ export function AboutPage() {
       {/* Team Section */}
       <section className="container mx-auto px-6 md:px-12">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-playfair mb-4">Meet the Team</h2>
+          <h2 className="text-4xl font-cormorant mb-4">Meet the Team</h2>
           <p className="text-white/50 font-light">The artists behind the camera.</p>
         </div>
 
@@ -99,7 +99,7 @@ export function AboutPage() {
               <div className="w-32 h-32 rounded-full overflow-hidden mb-6 border-2 border-transparent group-hover:border-luxury-gold/50 transition-colors">
                 <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
               </div>
-              <h3 className="text-xl font-playfair mb-1">{member.name}</h3>
+              <h3 className="text-xl font-cormorant mb-1">{member.name}</h3>
               <p className="text-luxury-gold text-xs uppercase tracking-widest mb-4">{member.role}</p>
               <p className="text-white/50 text-sm font-light leading-relaxed">
                 {member.bio}

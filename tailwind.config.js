@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'deep-black': '#050505',
-        'charcoal': '#111111',
-        'luxury-gold': '#D4AF37',
+        'deep-black': '#0a0a0a',
+        'charcoal': '#1c1c1c',
+        'luxury-gold': '#C4A484',
       },
       fontFamily: {
-        playfair: ['Playfair Display', 'serif'],
-        poppins: ['Poppins', 'sans-serif'],
+        cormorant: ['Cormorant Garamond', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       animation: {
         marquee: 'marquee 25s linear infinite',
